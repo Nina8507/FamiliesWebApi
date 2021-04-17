@@ -24,8 +24,12 @@ namespace FamiliesWebApi.Data.UserService
             {
                 return loginUser;
             }
+            else
+            {
+                throw new Exception("User not found");
+            }
 
-            throw new Exception("User not found");
+            
         }
     }
 }
