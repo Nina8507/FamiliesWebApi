@@ -1,0 +1,182 @@
+[
+  {
+    "JobTitle": {
+      "JobTitle": "Science Teacher",
+      "Salary": 55346
+    },
+    "Id": 13,
+    "FirstName": "Arley",
+    "LastName": "Vaughn",
+    "HairColor": "Black",
+    "Age": 33,
+    "Weight": 55.4,
+    "Height": 171,
+    "Sex": "M",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Call Center Agent",
+      "Salary": 20308
+    },
+    "Id": 14,
+    "FirstName": "Isiah",
+    "LastName": "Esparza",
+    "HairColor": "Brown",
+    "Age": 44,
+    "Weight": 81.8,
+    "Height": 172,
+    "Sex": "M",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "trt",
+      "Salary": 89
+    },
+    "Id": 77,
+    "FirstName": "lala",
+    "LastName": "blalvla",
+    "HairColor": "red",
+    "Age": 34,
+    "Weight": 12,
+    "Height": 234,
+    "Sex": "F",
+    "EyeColor": null
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Mascot",
+      "Salary": 99821
+    },
+    "Id": 4,
+    "FirstName": "Yasmine",
+    "LastName": "Baxter",
+    "HairColor": "Black",
+    "Age": 55,
+    "Weight": 39.8,
+    "Height": 174,
+    "Sex": "F",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Web Administrator",
+      "Salary": 44759
+    },
+    "Id": 1288,
+    "FirstName": "Zavier",
+    "LastName": "Huffman",
+    "HairColor": "Black",
+    "Age": 59,
+    "Weight": 54.4,
+    "Height": 166,
+    "Sex": "M",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Bank Manager",
+      "Salary": 67000
+    },
+    "Id": 30,
+    "FirstName": "Jojo",
+    "LastName": "Jina",
+    "HairColor": "black",
+    "Age": 41,
+    "Weight": 65.3,
+    "Height": 175,
+    "Sex": "F",
+    "EyeColor": null
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Front End Web Developer",
+      "Salary": 66408
+    },
+    "Id": 100,
+    "FirstName": "Lyla",
+    "LastName": "Humphrey",
+    "HairColor": "Black",
+    "Age": 36,
+    "Weight": 64.8,
+    "Height": 147,
+    "Sex": "F",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Business Development Manager",
+      "Salary": 71456
+    },
+    "Id": 2,
+    "FirstName": "Samara",
+    "LastName": "Humphrey",
+    "HairColor": "Blonde",
+    "Age": 34,
+    "Weight": 37,
+    "Height": 145,
+    "Sex": "F",
+    "EyeColor": "Brown"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Janitor",
+      "Salary": 61437
+    },
+    "Id": 11,
+    "FirstName": "Cataleya",
+    "LastName": "Machintoch",
+    "HairColor": "Blond",
+    "Age": 52,
+    "Weight": 56.8,
+    "Height": 172,
+    "Sex": "F",
+    "EyeColor": "Blue"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Teacher",
+      "Salary": 91588
+    },
+    "Id": 5,
+    "FirstName": "Soham",
+    "LastName": "Fitzgerald",
+    "HairColor": "Blond",
+    "Age": 48,
+    "Weight": 131.6,
+    "Height": 173,
+    "Sex": "M",
+    "EyeColor": "Grey"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Nurse",
+      "Salary": 36813
+    },
+    "Id": 11,
+    "FirstName": "Zahra",
+    "LastName": "Black",
+    "HairColor": "Brown",
+    "Age": 32,
+    "Weight": 124.2,
+    "Height": 174,
+    "Sex": "F",
+    "EyeColor": "Grey"
+  },
+  {
+    "JobTitle": {
+      "JobTitle": "Manager",
+      "Salary": 54000
+    },
+    "Id": 111,
+    "FirstName": "Nina",
+    "LastName": "Marta",
+    "HairColor": "Blond",
+    "Age": 29,
+    "Weight": 67,
+    "Height": 178,
+    "Sex": "F",
+    "EyeColor": null
+  }
+]
