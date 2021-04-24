@@ -9,7 +9,7 @@ namespace FamiliesWebApi.Data.AdultService
 {
     public class AdultService:IAdultService
     {
-        private string adultFile = "adult.json";
+        private string adultFile = "adults.json";
         private IList<Adult> _adults;
         private IFileContext _fileContext;
 

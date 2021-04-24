@@ -17,9 +17,9 @@ namespace FamiliesWebApi.Data.UserService
         }
         public async Task<User> ValidateUserAsync(string userName, string passWord)
         {
-            Task<IList<User>> usersAsync = _userContext.GetUsersAsync();
+            IList<User> usersAsync =  await _userContext.GetUsersAsync();
             //IList<User> userList = usersAsync.GetAwaiter().GetResult();
-            var loginUser = usersAsync.Result.First(u => u.UserName.Equals
+            var loginUser = usersAsync.First(u => u.UserName.Equals 
                 (userName) && u.Password.Equals(passWord));
             if (loginUser != null)
             {

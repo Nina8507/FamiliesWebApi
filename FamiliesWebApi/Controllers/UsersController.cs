@@ -8,11 +8,11 @@ namespace FamiliesWebApi.Controllers
 {
     [ApiController] 
     [Route("[controller]")]
-    public class UserController:ControllerBase
+    public class UsersController:ControllerBase
     {
         private readonly IUserService _userService;
 
-        public UserController(IUserService userService)
+        public UsersController(IUserService userService)
         {
             _userService = userService;
         }
@@ -28,6 +28,7 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.StackTrace);
                 return BadRequest(e.Message);
             }
         }

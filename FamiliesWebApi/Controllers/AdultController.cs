@@ -19,9 +19,7 @@ namespace FamiliesWebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Adult>>> GetAdultsAsync([FromBody] Job job, [FromQuery] int? id,
-            [FromQuery] string firstName, [FromQuery] string lastName, [FromQuery] string hairColor, 
-            [FromQuery] int? age, [FromQuery] float? weight, [FromQuery] int? height, [FromQuery] string sex)
+        public async Task<ActionResult<IList<Adult>>> GetAdultsAsync()
         {
             try
             {
@@ -30,7 +28,7 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.StackTrace);
                 return StatusCode(500, e.Message);
             }
         }
@@ -45,7 +43,7 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.StackTrace);
             }
         }
 
@@ -64,7 +62,7 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.StackTrace);
                 return StatusCode(500, e.Message);
             }
         }
@@ -80,9 +78,26 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.StackTrace);
                 return StatusCode(500, e.Message);
             }
         }
+
+        [HttpGet]
+        [Route("{id:int}")]
+        public async Task<ActionResult<Adult>> GetAdultAsync([FromRoute] int id)
+        {
+            try
+            {
+                Adult adultAsync = await _adultService.GetAdultAsync(id);
+                return Ok(adultAsync);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+                throw;
+            }
+        }
+        
     }
 }

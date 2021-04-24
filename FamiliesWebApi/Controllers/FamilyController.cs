@@ -19,8 +19,7 @@ namespace FamiliesWebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Family>>> GetFamiliesAsync([FromQuery] int? id,
-            [FromQuery] string streetName, [FromQuery] int? houseNumber, [FromBody] List<Adult> adults)
+        public async Task<ActionResult<IList<Family>>> GetFamiliesAsync()
         {
             try
             {
@@ -29,7 +28,7 @@ namespace FamiliesWebApi.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.StackTrace);
                 return StatusCode(500, e.Message);
             }
             

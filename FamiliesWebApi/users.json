@@ -1,27 +1,27 @@
 [
   {
     "username": "LeanneGraham",
-    "role": "manager",
+    "role": "Manager",
     "password":  "1234"
   },
   {
     "username": "ErvinHowell",
-    "role": "manager",
+    "role": "Manager",
     "password": "1234"
   },
   {
     "username": "ClementineBauch",
-    "role": "analyst",
+    "role": "Analyst",
     "password": "1234"
   },
   {
     "username": "PatriciaBebsack",
-    "role": "developer",
+    "role": "Developer",
     "password": "1234"
   },
   {
     "username": "ChelseyDietrich",
-    "role": "sales",
+    "role": "Sales",
     "password": "1234"
   }
 ]
